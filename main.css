@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+/*Reset de estilos */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Work Sans', sans-serif;
+text-decoration: normal;
+}
+
+.container {
+max-width: 1080px;
+align-items: center;
+display: flex;
+margin: 0 auto;
+justify-content: center;
+}
+
+header  {
+    background-color: #000000;
+    width: 100%;
+    padding: 10px;
+}
+
+#logo, .sociais {
+    width: 25%;
+}
+
+#logo img {
+    width: 70px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu nav a {
+    color: #ffffff;
+    padding-right: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+
+.menu nav a::after {
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, #fd7139, #ffcd28);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: width 0.4s;
+    
+}
+
+.menu nav a:hover::after {
+    width: 45px
+}
+.sociais button {
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(45deg, #ff4d07, #ffc609);
+    border: none;
+    margin-right: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.sociais button i {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.container1 img {
+    height: 300px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.container1 p {
+    padding-left: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    width: 60%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.container1 h2 {
+    padding-left: 50px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fdd244;
+}
+
+.container1 {
+    background-color: #000000f5;
+}
+
+.container1 p, h2, img {
+align-items: center;
+display: flex;
+margin:  auto;
+justify-content: center;
+font-weight: normal;
+max-width: 100%;
+text-align: center;
+}
+
+.contactme {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+body {
+    position: relative;
+}
+
+.contactme {
+
+    align-items: center;
+    display: block;
+    margin:  auto;
+    justify-content: center;
+    font-weight: normal;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.contactme input {
+    width: 200px;
+    height: 30px;
+}
+
+.contactme label {
+    padding-bottom: 5px;
+}
+
+.contactme textarea {
+    background-color: rgb(255, 255, 255);
+}
+
+
+
